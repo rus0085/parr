@@ -302,3 +302,13 @@ DevTools listening on ws://localhost:52426/devtools/browser/1d9df56d-8f66-4b55-9
 Read port: 52471
 1652454809221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1652459054800	geckodriver	INFO	Listening on 127.0.0.1:53202
+1652459055348	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53203" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\2D09~1\\AppData\\Local\\Temp\\rust_mozprofileUBzPk0"
+*** You are running in headless mode.
+1652459060885	Marionette	INFO	Marionette enabled
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\2D09~1\\AppData\\Local\\Temp\\rust_mozprofileUBzPk0\\search.json.mozlz4", (void 0)))
+1652459081577	geckodriver	INFO	Listening on 127.0.0.1:53221
+1652459082088	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "53222" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\2D09~1\\AppData\\Local\\Temp\\rust_mozprofileDuPqqr"
+*** You are running in headless mode.
+1652459082599	Marionette	INFO	Marionette enabled

@@ -4,8 +4,8 @@ import os
 import telebot
 import sqlite3
 from telebot import types
-import luck
-import scroll_ape
+#import luck
+#import scroll_ape
 
 
 hideBoard = types.ReplyKeyboardRemove()
@@ -115,10 +115,12 @@ def options_rank(message):
     bot.register_next_step_handler(send1, functions)
 
 @bot.message_handler(commands=["base"])
-def base_open():
+def base_open(message):
         connector = sqlite3.connect('nft_toned_ape.db')
         cursor = connector.cursor()
-        cursor.execute("SELECT count(*) FROM options_ape")
+        cursor.execute("SELECT count(*) FROM list_NFT_APE")
+        a = cursor.fetchone()
+        print(bot.send_message(message.from_user.id, a))
 
 
 if 1:
