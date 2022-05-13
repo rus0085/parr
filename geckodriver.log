@@ -289,3 +289,16 @@ console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError 
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
 console.error: Region.jsm: "Error fetching region" (new TypeError("NetworkError when attempting to fetch resource.", ""))
 console.error: Region.jsm: "Failed to fetch region" (new Error("NO_RESULT", "resource://gre/modules/Region.jsm", 419))
+1652454764294	geckodriver	INFO	Listening on 127.0.0.1:52425
+1652454766079	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--remote-debugging-port" "52426" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\2D09~1\\AppData\\Local\\Temp\\rust_mozprofileuJ19aJ"
+*** You are running in headless mode.
+1652454780605	Marionette	INFO	Marionette enabled
+console.error: Region.jsm: "Error fetching region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 772))
+console.error: Region.jsm: "Failed to fetch region" (new Error("TIMEOUT", "resource://gre/modules/Region.jsm", 419))
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\2D09~1\\AppData\\Local\\Temp\\rust_mozprofileuJ19aJ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52426/devtools/browser/1d9df56d-8f66-4b55-9860-7df0973af95e
+1652454808733	Marionette	INFO	Listening on port 52471
+Read port: 52471
+1652454809221	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://mc.yandex.ru/metrika/tag.js, line 18: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
